@@ -41,3 +41,26 @@ array - object
 object - object
 function - function
 */
+
+// ***********************Stack and Heap Memory in JS*********************
+
+//1- Stack(Primitive) 2- Heap(Non-Primitive/Reference)
+
+let myInstaname = "AdoreAquaStudio";
+let anotherName = myInstaname;
+anotherName = "chai";
+console.log(myInstaname);
+
+console.log(anotherName);
+
+let userOne = {
+    email: "adore@gmail.com",
+    upi: "upi@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "adore@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
