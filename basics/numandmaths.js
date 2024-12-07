@@ -11,9 +11,6 @@ const otherNumber = 223.6548
 console.log(otherNumber.toPrecision(3));
 
 //-------------Maths-----------
-
-
-
 /*----- SUMMARY -----
 Video 12 - Number and Maths in Javascript
 
