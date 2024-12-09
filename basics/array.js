@@ -20,12 +20,45 @@ myArr.shift();
 // console.log(myArr);
 // console.log(newArr);
 const myn1 = myArr.slice(1,4);
-console.log(myn1);
-console.log("B ", myArr);
+// console.log(myn1);
+// console.log("B ", myArr);
 
 const myn2 = myArr.splice(1,4);
-console.log(myn1);
-console.log(myn2);
+// console.log(myn1);
+// console.log(myn2);
+
+const marvel_heros =["Thor", "Ironman", "Spiderman", "Hulk"];
+const dc_heros = ["Batman", "Flash", "Superman"];
+
+//marvel_heros.push(dc_heros);
+
+//console.log(marvel_heros);
+//console.log(marvel_heros[3][1]);
+
+//const allHeros = marvel_heros.concat(dc_heros);
+//console.log(allHeros);
+
+const all_new_heros = [...marvel_heros, ...dc_heros];
+//console.log(all_new_heros);
+
+const anotherArr = [1,2,3, [4,5,6],7, [6,7, [4,5]]];
+const real_anotherArr = anotherArr.flat(Infinity);
+console.log(real_anotherArr);
+
+console.log(Array.isArray("rohit"));
+console.log(Array.from("rohit"));
+console.log(Array.from({name: "rohit"}));
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1, score2, score3));
+
+
+
+
+
 
 
 
