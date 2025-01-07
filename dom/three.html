@@ -24,6 +24,10 @@
     div.setAttribute("title", "generated title")
     div.style.backgroundColor = "green"
     div.style.padding = "12px"
-    
+    //div.innerText = "chai or code"
+    const addText = document.createTextNode("chai or code")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
 </script>
 </html>
